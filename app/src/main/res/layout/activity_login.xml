@@ -5,5 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
+    <ImageView
+
+ <ImageView
+ android:id="@+id/imageView"
+ android:layout_width="391dp"
+ android:layout_height="207dp"
+ android:layout_marginTop="4dp"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:srcCompat="@drawable/guni_pink_logo" />
+ <com.google.android.material.card.MaterialCardView
+ android:layout_width="383dp"
+ android:layout_height="333dp"
+ app:cardCornerRadius="30dp"
+ android:layout_marginHorizontal="20dp"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toBottomOf="@id/imageView">
+ <androidx.constraintlayout.widget.ConstraintLayout
+ android:layout_width="match_parent"
+ android:layout_height="334dp"
+ android:background="#E4D5EA">
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginStart="32dp"
+ android:layout_marginTop="44dp"
+ android:text="Email Id"
+ android:textSize="20sp"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
